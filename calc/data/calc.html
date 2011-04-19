@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>计算器</title>
+<script LANGUAGE="JavaScript">
+        <!--
+       function jg(form) {
+       form.xsq.value = eval(form.xsq.value)
+            }
+     function xs(form, a) {
+     form.xsq.value += a
+            }
+        function qc(form) {
+        form.xsq.value = ""
+            }
+</script>
+<style>
+.btn{
+width:40px;
+} 
+</style>
+</head>
+<body bgcolor="#FFC8E3" text="#000000" leftmargin="0" topmargin="0">
+<div align="center">
+ <form NAME="myform">
+    <table border="1" width="188" cellpadding="0" cellspacing="0" bordercolorlight="#FFC8E3" bordercolordark="#C0C0C0">
+      <tr align="center">
+        <th width="188"> <font color="#FF0000">计算器</font>
+        
+            <table BORDER="1" cellpadding="2" cellspacing="0" bordercolorlight="#CC0000" bordercolordark="#FFFFCC">
+              <tr>
+          <td COLSPAN="4" align="center"><input TYPE="text" NAME="xsq" SIZE="20"> </td>
+        </tr>
+        <tr align="center">
+          <td><input TYPE="button" VALUE=" 1 " onClick="xs(form, '1')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" 2 " onClick="xs(form, '2')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" 3 " onClick="xs(form, '3')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" + " onClick="xs(form, '+')" class='btn'> </td>
+        </tr>
+        <tr align="center">
+          <td><input TYPE="button" VALUE=" 4 " onClick="xs(form, '4')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" 5 " onClick="xs(form, '5')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" 6 " onClick="xs(form, '6')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" - " onClick="xs(form, '-')" class='btn'> </td>
+        </tr>
+        <tr align="center">
+          <td><input TYPE="button" VALUE=" 7 " onClick="xs(form, '7')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" 8 " onClick="xs(form, '8')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" 9 " onClick="xs(form, '9')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" * " onClick="xs(form, '*')" class='btn'> </td>
+        </tr>
+        <tr align="center">
+          <td><input TYPE="button" VALUE=" 0 " onClick="xs(form, '0')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" . " onClick="xs(form, '.')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" / " onClick="xs(form, '/')" class='btn'> </td>
+          <td><input TYPE="button" VALUE=" % " onClick="xs(form, '%')" class='btn'> </td>
+        </tr>
+        <tr align="center">
+          <td COLSPAN="2"><input TYPE="button" VALUE="  清 除  " onClick="qc(form)" style="width:90px;"> </td>
+          <td COLSPAN="2"><input TYPE="button" VALUE="   =   " onClick="jg(form)" style="width:90px;"> </td>
+        </tr>
+      </table>
+    </th>
+  </tr>
+</table>
+  </form>
+</div>
+</body>
+</html>

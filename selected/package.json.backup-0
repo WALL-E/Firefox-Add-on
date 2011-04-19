@@ -1,0 +1,8 @@
+{
+    "name": "selected-zh", 
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+    "author": "zhangz", 
+    "version": "0.1", 
+    "fullName": "selected-zh", 
+    "description": "copy to clipboard when selected"
+}
