@@ -1,3 +1,17 @@
 Firefox-Add-on
 
 You must use addon-sdk, Sorry!
+
+The project include 6 basic add-on
+1:calc
+a simple calc in the firefox
+2:links
+only a examples
+3:selected
+it can copy to clipboard when you selected text in the web self-driven
+4:timer
+a basic addon, a timer,
+5:tools
+a time functions and so on
+6: translator
+can translator text in the text and replaced
