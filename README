@@ -2,7 +2,8 @@ Firefox-Add-on
 
 You must use addon-sdk, Sorry!
 
-The project include 6 basic add-on
+The project include some basic add-on
+
 1:calc
 a simple calc in the firefox
 2:links
