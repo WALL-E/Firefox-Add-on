@@ -13,7 +13,6 @@ exports.main = function() {
 		clipboard.set(selection.text);
 	}
 
- 
 	function toggleActivation() {
 		annotatorIsOn = preferences.get("enable_selected");
 		annotatorIsOn = !annotatorIsOn;
@@ -40,6 +39,14 @@ exports.main = function() {
 			if (message == 'left-click') {
 				toggleActivation();
         		}
+			if (message == 'init-click'){
+				annotatorIsOn = preferences.get("enable_selected");
+				if(annotatorIsOn == true){
+					console.log('activate');
+					selection.on('select', myListener);
+					widget.contentURL = data.url('widget/pencil-on.png');
+				}
+			}
 		}
 	});
 }
